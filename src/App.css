@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  display:flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
 }
 
 .App-logo {
@@ -11,6 +15,16 @@
   .App-logo {
     animation: App-logo-spin infinite 2s linear;
   }
+}
+
+.Product {
+  background: white;
+  border:1px solid gray;
+  margin-top:20px;
+  box-shadow:5px 5px 5px gray;
+  width: 300px;
+  border-radius:20px;
+
 }
 
 .Product img{
