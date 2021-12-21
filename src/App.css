@@ -4,6 +4,8 @@
   flex-direction: column;
   /* justify-content: center; */
   align-items: center;
+  background-color:	#001f2b;
+  color:#009bd6;
 }
 
 .App-logo {
@@ -26,9 +28,9 @@
 
 .Product {
   background: white;
-  border:1px solid gray;
+  border:1px solid black;
   margin:10px;
-  box-shadow:5px 5px 5px gray;
+  box-shadow:5px 5px 5px black;
   width: 300px;
   border-radius:20px;
   display:flex;
@@ -39,6 +41,22 @@
 
 .Product img{
   width: 100px;
+}
+
+.Product h4{
+  width: 280px;
+}
+
+.Product h2{
+  display:flex;
+  /* width: 80px; */
+  padding-left:10px;
+  padding-right:10px;
+  background: #00415a;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius:5px;
 }
 
 .App-header {
