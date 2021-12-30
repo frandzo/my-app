@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import {Header} from './Header.js';
-import {Product} from './Product.js';
+import {Header} from './components/Header.js';
+import {Product} from './components/Product.js';
 import json from "./products.json";
 
 function App() {
