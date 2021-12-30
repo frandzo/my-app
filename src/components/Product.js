@@ -8,6 +8,9 @@ export function Product(props){
         return (<div className="Product">
             <h4>{title}</h4>
             <img src={img}/>
-            <h2>${price}</h2>
+            <div>
+                <button>SUMAR AL CARRITO</button>
+                <h2>${price}</h2>
+            </div>
         </div>)
 }
